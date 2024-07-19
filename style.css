@@ -63,3 +63,18 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
+
+@media screen and (max-width:850px){
+    .control{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .showresult{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .showresult>:nth-child(1),.showresult>:nth-child(2){
+        width: 250px;
+ }
+}
